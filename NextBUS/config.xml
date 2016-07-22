@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://salvadorruedapau.com/NextBUS" version="1.0.0" viewmodes="maximized">
+    <access origin="https://openbus.emtmadrid.es" subdomains="true"></access>
+    <tizen:application id="vdqZnlJRiQ.NextBUS" package="vdqZnlJRiQ" required_version="2.2.1"/>
+    <author href="http://SalvadorRuedaPau.com/" email="Salvador.Rueda@gmail.com">Salvador Rueda Pau</author>
+    <content src="index.html"/>
+    <description>Next BUS allows you to check how much time you must wait for the next EMT Madrid's BUS.</description>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <icon src="nextbus.png" height="117" width="117"/>
+    <name>NextBUS</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting hwkey-event="enable"/>
+</widget>
