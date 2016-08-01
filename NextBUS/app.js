@@ -33,8 +33,9 @@ function secondsToSpanish(seconds){
 
 function g(idStop){
 var cultureInfo = 'es';
-var emtApiIdClient = 'WEB.SERV.....@gmail.com';
-var emtApiPasskey = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX';
+var emtApiIdClient = 'WEB.xxxxxxxxxx@xxxx.com';
+var emtApiPasskey = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXX';
+
 var busItem =0;
 
 if (idStop === 0){
